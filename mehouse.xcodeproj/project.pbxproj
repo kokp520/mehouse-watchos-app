@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5280AE612CAD637000B993B6 /* mehouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280AE602CAD637000B993B6 /* mehouseApp.swift */; };
+		5280AE632CAD637000B993B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280AE622CAD637000B993B6 /* ContentView.swift */; };
+		5280AE652CAD637200B993B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5280AE642CAD637200B993B6 /* Assets.xcassets */; };
+		5280AE682CAD637200B993B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5280AE672CAD637200B993B6 /* Preview Assets.xcassets */; };
+		5280AE6E2CAD637200B993B6 /* mehouse Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5280AE6D2CAD637200B993B6 /* mehouse Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5280AE732CAD637200B993B6 /* mehouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280AE722CAD637200B993B6 /* mehouseApp.swift */; };
+		5280AE752CAD637200B993B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280AE742CAD637200B993B6 /* ContentView.swift */; };
+		5280AE772CAD637300B993B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5280AE762CAD637300B993B6 /* Assets.xcassets */; };
+		5280AE7A2CAD637300B993B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5280AE792CAD637300B993B6 /* Preview Assets.xcassets */; };
+		5280AE852CAD689100B993B6 /* DigitalWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280AE842CAD689100B993B6 /* DigitalWatch.swift */; };
+		5280AE872CAD68EB00B993B6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280AE862CAD68EB00B993B6 /* Config.swift */; };
+		5280AE892CAD691A00B993B6 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280AE882CAD691A00B993B6 /* Theme.swift */; };
+		5280AE8B2CAD6CAF00B993B6 /* CharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280AE8A2CAD6CAF00B993B6 /* CharacterController.swift */; };
+		5280AE8D2CAD780B00B993B6 /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280AE8C2CAD780B00B993B6 /* RoomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5280AE6F2CAD637200B993B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5280AE552CAD637000B993B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5280AE6C2CAD637200B993B6;
+			remoteInfo = "mehouse Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5280AE802CAD637300B993B6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5280AE6E2CAD637200B993B6 /* mehouse Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5280AE5D2CAD637000B993B6 /* mehouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mehouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5280AE602CAD637000B993B6 /* mehouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mehouseApp.swift; sourceTree = "<group>"; };
+		5280AE622CAD637000B993B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5280AE642CAD637200B993B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5280AE672CAD637200B993B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5280AE6D2CAD637200B993B6 /* mehouse Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mehouse Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5280AE722CAD637200B993B6 /* mehouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mehouseApp.swift; sourceTree = "<group>"; };
+		5280AE742CAD637200B993B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5280AE762CAD637300B993B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5280AE792CAD637300B993B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5280AE842CAD689100B993B6 /* DigitalWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalWatch.swift; sourceTree = "<group>"; };
+		5280AE862CAD68EB00B993B6 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		5280AE882CAD691A00B993B6 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		5280AE8A2CAD6CAF00B993B6 /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
+		5280AE8C2CAD780B00B993B6 /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5280AE5A2CAD637000B993B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5280AE6A2CAD637200B993B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5280AE542CAD637000B993B6 = {
+			isa = PBXGroup;
+			children = (
+				5280AE5F2CAD637000B993B6 /* mehouse */,
+				5280AE712CAD637200B993B6 /* mehouse Watch App */,
+				5280AE5E2CAD637000B993B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5280AE5E2CAD637000B993B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5280AE5D2CAD637000B993B6 /* mehouse.app */,
+				5280AE6D2CAD637200B993B6 /* mehouse Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5280AE5F2CAD637000B993B6 /* mehouse */ = {
+			isa = PBXGroup;
+			children = (
+				5280AE602CAD637000B993B6 /* mehouseApp.swift */,
+				5280AE622CAD637000B993B6 /* ContentView.swift */,
+				5280AE642CAD637200B993B6 /* Assets.xcassets */,
+				5280AE662CAD637200B993B6 /* Preview Content */,
+			);
+			path = mehouse;
+			sourceTree = "<group>";
+		};
+		5280AE662CAD637200B993B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5280AE672CAD637200B993B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5280AE712CAD637200B993B6 /* mehouse Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5280AE842CAD689100B993B6 /* DigitalWatch.swift */,
+				5280AE862CAD68EB00B993B6 /* Config.swift */,
+				5280AE882CAD691A00B993B6 /* Theme.swift */,
+				5280AE722CAD637200B993B6 /* mehouseApp.swift */,
+				5280AE742CAD637200B993B6 /* ContentView.swift */,
+				5280AE8C2CAD780B00B993B6 /* RoomView.swift */,
+				5280AE8A2CAD6CAF00B993B6 /* CharacterController.swift */,
+				5280AE762CAD637300B993B6 /* Assets.xcassets */,
+				5280AE782CAD637300B993B6 /* Preview Content */,
+			);
+			path = "mehouse Watch App";
+			sourceTree = "<group>";
+		};
+		5280AE782CAD637300B993B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5280AE792CAD637300B993B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5280AE5C2CAD637000B993B6 /* mehouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5280AE812CAD637300B993B6 /* Build configuration list for PBXNativeTarget "mehouse" */;
+			buildPhases = (
+				5280AE592CAD637000B993B6 /* Sources */,
+				5280AE5A2CAD637000B993B6 /* Frameworks */,
+				5280AE5B2CAD637000B993B6 /* Resources */,
+				5280AE802CAD637300B993B6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5280AE702CAD637200B993B6 /* PBXTargetDependency */,
+			);
+			name = mehouse;
+			productName = mehouse;
+			productReference = 5280AE5D2CAD637000B993B6 /* mehouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5280AE6C2CAD637200B993B6 /* mehouse Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5280AE7D2CAD637300B993B6 /* Build configuration list for PBXNativeTarget "mehouse Watch App" */;
+			buildPhases = (
+				5280AE692CAD637200B993B6 /* Sources */,
+				5280AE6A2CAD637200B993B6 /* Frameworks */,
+				5280AE6B2CAD637200B993B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mehouse Watch App";
+			productName = "mehouse Watch App";
+			productReference = 5280AE6D2CAD637200B993B6 /* mehouse Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5280AE552CAD637000B993B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5280AE5C2CAD637000B993B6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5280AE6C2CAD637200B993B6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5280AE582CAD637000B993B6 /* Build configuration list for PBXProject "mehouse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5280AE542CAD637000B993B6;
+			productRefGroup = 5280AE5E2CAD637000B993B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5280AE5C2CAD637000B993B6 /* mehouse */,
+				5280AE6C2CAD637200B993B6 /* mehouse Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5280AE5B2CAD637000B993B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5280AE682CAD637200B993B6 /* Preview Assets.xcassets in Resources */,
+				5280AE652CAD637200B993B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5280AE6B2CAD637200B993B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5280AE7A2CAD637300B993B6 /* Preview Assets.xcassets in Resources */,
+				5280AE772CAD637300B993B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5280AE592CAD637000B993B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5280AE632CAD637000B993B6 /* ContentView.swift in Sources */,
+				5280AE612CAD637000B993B6 /* mehouseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5280AE692CAD637200B993B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5280AE852CAD689100B993B6 /* DigitalWatch.swift in Sources */,
+				5280AE8B2CAD6CAF00B993B6 /* CharacterController.swift in Sources */,
+				5280AE872CAD68EB00B993B6 /* Config.swift in Sources */,
+				5280AE8D2CAD780B00B993B6 /* RoomView.swift in Sources */,
+				5280AE892CAD691A00B993B6 /* Theme.swift in Sources */,
+				5280AE752CAD637200B993B6 /* ContentView.swift in Sources */,
+				5280AE732CAD637200B993B6 /* mehouseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5280AE702CAD637200B993B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5280AE6C2CAD637200B993B6 /* mehouse Watch App */;
+			targetProxy = 5280AE6F2CAD637200B993B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5280AE7B2CAD637300B993B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5280AE7C2CAD637300B993B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5280AE7E2CAD637300B993B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mehouse Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SV5887B53N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = mehouse;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.adi.mehouse;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adi.mehouse.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		5280AE7F2CAD637300B993B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mehouse Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SV5887B53N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = mehouse;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.adi.mehouse;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adi.mehouse.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		5280AE822CAD637300B993B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mehouse/Preview Content\"";
+				DEVELOPMENT_TEAM = SV5887B53N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = mehouse;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adi.mehouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5280AE832CAD637300B993B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mehouse/Preview Content\"";
+				DEVELOPMENT_TEAM = SV5887B53N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = mehouse;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adi.mehouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5280AE582CAD637000B993B6 /* Build configuration list for PBXProject "mehouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5280AE7B2CAD637300B993B6 /* Debug */,
+				5280AE7C2CAD637300B993B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5280AE7D2CAD637300B993B6 /* Build configuration list for PBXNativeTarget "mehouse Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5280AE7E2CAD637300B993B6 /* Debug */,
+				5280AE7F2CAD637300B993B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5280AE812CAD637300B993B6 /* Build configuration list for PBXNativeTarget "mehouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5280AE822CAD637300B993B6 /* Debug */,
+				5280AE832CAD637300B993B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5280AE552CAD637000B993B6 /* Project object */;
+}
